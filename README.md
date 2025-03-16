@@ -6,7 +6,7 @@ This repository contains a comprehensive tutorial for learning Next.js 15+ by bu
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/nextjs_tutorial.git
+git clone https://github.com/dingran/nextjs_tutorial.git
 cd nextjs_tutorial
 ```
 
@@ -30,9 +30,12 @@ pnpm dev
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Tutorial Guide
+## Tutorial Structure
 
-See [TUTORIAL.md](TUTORIAL.md) for the complete tutorial guide and curriculum.
+- [Course Outline](OUTLINE.md) - Complete course curriculum and overview
+- [Section Documentation](docs/sections/) - Detailed documentation for each section
+  - [01: Fundamentals and Setup](docs/sections/01-fundamentals-and-setup.md)
+  - (More sections will be added as we progress)
 
 ## Project Structure
 
@@ -43,7 +46,9 @@ nextjs_tutorial/
 ├── lib/                 # Utility functions and shared logic
 ├── public/             # Static assets
 ├── styles/             # Global styles
-├── TUTORIAL.md         # Complete tutorial guide
+├── docs/               # Tutorial documentation
+│   └── sections/       # Section-specific documentation
+├── OUTLINE.md          # Course outline
 └── README.md           # Project overview
 ```
 
